@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Overview | Poker Blog</title>
+  <meta name="description" content="">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script src="assets/js/custom-select.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <div class="header-row container">
+
+      <!-- header-logo -->
+      <div class="header-column is-logo">
+
+        <span class="logo">
+          <img src="assets/img/logo.svg" alt="Poker Blog">
+        </span>
+
+      </div>
+      <!-- /header-logo -->
+
+      <!-- header-search -->
+      <div class="header-column is-search">
+
+        <button class="trigger" aria-label="Поиск">
+          <svg class="trigger-icon state-normal">
+            <use xlink:href="#icon-search"></use>
+          </svg>
+          <svg class="trigger-icon state-active">
+            <use xlink:href="#icon-close"></use>
+          </svg>
+        </button>
+
+        <div class="popup-box">
+          <form class="search" method="get">
+            <input class="search-input" type="search" name="q" placeholder="Что будем искать?" required>
+            <button class="search-button" aria-label="Искать">
+              <svg><use xlink:href="#icon-search"></use></svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+      <!-- /header-search -->
+
+      <!-- header-navigation -->
+      <div class="header-column is-navigation">
+
+        <button class="trigger" aria-label="Навигация">
+          <svg class="trigger-icon state-normal">
+            <use xlink:href="#icon-hamburger"></use>
+          </svg>
+          <svg class="trigger-icon state-active">
+            <use xlink:href="#icon-close"></use>
+          </svg>
+        </button>
+
+        <div class="popup-box">
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a class="menu-link" href="#">Покер-румы</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">Казино</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">Игры</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#">Новичкам</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+      <!-- /header-navigation -->
+
+    </div>
+  </header>
+  <!-- /header -->
+
+  <!-- main -->
+  <main class="main">
+    <div class="container">
+
+      <!-- main-content -->
+      <div class="centered">
+
+        <!-- wysiwyg -->
+        <div class="wysiwyg">
+          <h1>Название казино</h1>
+
+          <p>Пин-Ап – известный бренд казино. На сайте собрана большая коллекция игровых автоматов, есть возможность делать ставки на спорт и киберспорт. Геймеры, которых интересует игра в рулетку, покер, блекджек в режиме реального времени, могут найти себе развлечения в меню «Live-Дилеры». Каждый раздел с азартными играми регулярно пополняется новинками.</p>
+
+          <div class="wysiwyg wysiwyg-hidden">
+            <p>Пин-Ап – известный бренд казино. На сайте собрана большая коллекция игровых автоматов, есть возможность делать ставки на спорт и киберспорт. Геймеры, которых интересует игра в рулетку, покер, блекджек в режиме реального времени, могут найти себе развлечения в меню «Live-Дилеры». Каждый раздел с азартными играми регулярно пополняется новинками.</p>
+          </div>
+          <div class="wysiwyg-toggle" data-close="Скрыть">Читать далее</div>
+
+          <p><a class="button" href="#">Перейти на сайт</a></p>
+        </div>
+        <!-- /wysiwyg -->
+
+        <!-- section table -->
+        <div class="section">
+          <h2 class="section-title">Информация</h2>
+
+          <!-- table -->
+          <table class="table">
+            <tr>
+              <td>
+                <img src="assets/img/icons/mini/slot-machine.svg" alt>
+                <span>Провайдеры</span>
+              </td>
+              <td>Netent, Microgaming, Evolution Gaming и еще 47</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/img/icons/mini/wallet.svg" alt>
+                <span>Платежи</span>
+              </td>
+              <td>
+
+                <!-- payments -->
+                <ul class="payments">
+                  <li>
+                    <img src="assets/img/payments/visa.svg" alt="Visa">
+                  </li>
+                  <li>
+                    <img src="assets/img/payments/mastercard.svg" alt="MasterCard">
+                  </li>
+                  <li>
+                    <img src="assets/img/payments/paypal.svg" alt="PayPal">
+                  </li>
+                  <li>
+                    <img src="assets/img/payments/webmoney.svg" alt="WebMoney">
+                  </li>
+                </ul>
+                <!-- /payments -->
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/img/icons/mini/money.svg" alt>
+                <span>Валюта счета</span>
+              </td>
+              <td>RUB, USD, EUR</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/img/icons/mini/gift.svg" alt>
+                <span>Бонус за депозит</span>
+              </td>
+              <td>100% бонус до $600 с вагером x35. На отыгрыш выделяется 90 дней с момента пополнения счета</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/img/icons/mini/cashback.svg" alt>
+                <span>Кэшбэк</span>
+              </td>
+              <td>10%</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="assets/img/icons/mini/support.svg" alt>
+                <span>Саппорт</span>
+              </td>
+              <td>support@site.com и live-чат</td>
+            </tr>
+          </table>
+          <!-- /table -->
+
+        </div>
+        <!-- /section table -->
+
+        <!-- section comments -->
+        <div class="section">
+          <h3 class="section-title">2 отзыва</h3>
+
+          <!-- comments -->
+          <div class="comments">
+            <div class="comments-list">
+
+              <!-- comment -->
+              <div class="comment">
+                <div class="comment-head">
+                  <div class="comment-name">Николай</div>
+                  <div class="comment-date">9 сен 2022</div>
+                </div>
+                <div class="comment-body">
+                  <p>100% бонус до $600 с вагером x35. На отыгрыш выделяется 90 дней с момента пополнения счета</p>
+                </div>
+              </div>
+              <!-- /comment -->
+
+              <!-- comment -->
+              <div class="comment">
+                <div class="comment-head">
+                  <div class="comment-name">Юлия</div>
+                  <div class="comment-date">8 сен 2022</div>
+                </div>
+                <div class="comment-body">
+                  <p>Я на этой площадке зарегалился с самого ее запуска. До сих пор катаю здесь вертушки, хотя и на других сайтах меня знают как завсегдатая. Не приветствую сидение в одной казинохе, продолжающееся годами. Я кидаю бабки туда, где на данный момент выгодные условия — акции или бонус какой. Но здесь играть выгодно очень часто, поэтому пинап для меня стал неким плацдармом. Отличная площадка.</p>
+                </div>
+              </div>
+              <!-- /comment -->
+
+            </div>
+
+            <form class="comments-form">
+              <textarea class="field" name="message" rows="7" placeholder="Комментарий" required></textarea>
+
+              <div class="comments-form-footer">
+                <input class="field" type="text" name="name" placeholder="Имя" required>
+                <button class="button" type="submit">Отправить</button>
+              </div>
+            </form>
+          </div>
+          <!-- /comments -->
+
+        </div>
+        <!-- /section comments -->
+
+      </div>
+      <!-- /main-content -->
+
+      <!-- section related -->
+      <div class="section is-related">
+        <h2 class="section-title">Похожие казино</h2>
+
+        <!-- card-grid -->
+        <div class="card-grid type-games">
+
+          <!-- game-card -->
+          <div class="game-card">
+            <div class="game-card-group">
+              <div class="game-card-logo">
+                <div class="ratio">
+                  <img src="assets/img/game-logo.jpg" alt>
+                </div>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-title">PokerStars</div>
+                <p class="game-card-text">70 FS на автомате Joker Strike плюс бонус 100%</p>
+                <a class="game-card-button button" href="#">Играть</a>
+              </div>
+            </div>
+          </div>
+          <!-- /game-card -->
+
+          <!-- game-card -->
+          <div class="game-card">
+            <div class="game-card-group">
+              <div class="game-card-logo">
+                <div class="ratio">
+                  <img src="assets/img/game-logo.jpg" alt>
+                </div>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-title">PokerStars</div>
+                <p class="game-card-text">70 FS на автомате Joker Strike</p>
+                <a class="game-card-button button" href="#">Играть</a>
+              </div>
+            </div>
+          </div>
+          <!-- /game-card -->
+
+          <!-- game-card -->
+          <div class="game-card">
+            <div class="game-card-group">
+              <div class="game-card-logo">
+                <div class="ratio">
+                  <img src="assets/img/game-logo.jpg" alt>
+                </div>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-title">PokerStars</div>
+                <p class="game-card-text">70 FS на автомате Joker Strike плюс бонус 100%</p>
+                <a class="game-card-button button" href="#">Играть</a>
+              </div>
+            </div>
+          </div>
+          <!-- /game-card -->
+
+        </div>
+        <!-- /card-grid -->
+
+      </div>
+      <!-- /section related -->
+
+    </div>
+  </main>
+  <!-- /main -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-row container">
+
+      <p>© 2020–2022 PokerBlog</p>
+
+      <a href="#">О сайте</a>
+
+    </div>
+  </footer>
+  <!-- /footer -->
+
+  <!-- svg symbols -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+    <symbol id="icon-close" viewBox="0 0 24 25">
+      <line x1="1.06066" y1="2.33265" x2="22.2739" y2="23.5459" stroke="currentColor" stroke-width="3"/>
+      <line x1="1.54579" y1="23.1525" x2="22.759" y2="1.93927" stroke="currentColor" stroke-width="3"/>
+    </symbol>
+    <symbol id="icon-hamburger" viewBox="0 0 30 30">
+      <line y1="5" x2="30" y2="5" stroke="currentColor" stroke-width="3"/>
+      <line y1="15" x2="30" y2="15" stroke="currentColor" stroke-width="3"/>
+      <line y1="25" x2="30" y2="25" stroke="currentColor" stroke-width="3"/>
+    </symbol>
+    <symbol id="icon-search" viewBox="0 0 30 30">
+      <path d="M29.5439 27.3252L22.1484 19.8992C24.0499 17.7169 25.0917 14.971 25.0917 12.1125C25.0917 5.43377 19.4635 0 12.5459 0C5.62818 0 0 5.43377 0 12.1125C0 18.7912 5.62818 24.225 12.5459 24.225C15.1429 24.225 17.6177 23.4687 19.7335 22.0331L27.1852 29.5155C27.4967 29.8278 27.9156 30 28.3646 30C28.7895 30 29.1926 29.8436 29.4986 29.5592C30.1488 28.9552 30.1695 27.9535 29.5439 27.3252ZM12.5459 3.15978C17.6591 3.15978 21.8189 7.17586 21.8189 12.1125C21.8189 17.0491 17.6591 21.0652 12.5459 21.0652C7.43261 21.0652 3.27283 17.0491 3.27283 12.1125C3.27283 7.17586 7.43261 3.15978 12.5459 3.15978Z" fill="currentColor"/>
+    </symbol>
+  </svg>
+  <!-- /svg symbols -->
+
+</body>
+</html>
